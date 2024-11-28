@@ -44,6 +44,7 @@ dependencies {
     implementation fileTree(include:['*jar'],dir:'libs')
     implementation files('libs/BaiduLBS_Android.jar')
 
+    implementation 'com.android.volley:volley:1.2.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'io.hyphenate:hyphenate-chat:3.8.1'

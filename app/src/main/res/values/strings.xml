@@ -7,6 +7,7 @@
     <string name="label_submit">发贴</string>
     <string name="label_myself">我的</string>
     <string name="channel_name">ChannelN</string>
+    <string name="back_button">Back</string>
     <string name="shortlabel">first</string>
     <string name="longlabel">启停活动</string>
     <string name="channel_description">ChannelD</string>
