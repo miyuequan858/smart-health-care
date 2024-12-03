@@ -160,6 +160,8 @@
         </activity>
         <activity android:name=".VolunteerActivity"></activity>
         <activity android:name=".MedicalAdviceActivity" />
+        <activity android:name=".NearbyHospitalsActivity" />
+        <activity android:name=".HospitalDetailActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

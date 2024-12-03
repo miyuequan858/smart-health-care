@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.travelassistant.IntroActivity;
+import com.example.travelassistant.NearbyHospitalsActivity;
 import com.example.travelassistant.VolunteerActivity;
 import com.example.travelassistant.MedicalAdviceActivity; // 导入 MedicalAdviceActivity
 import com.example.travelassistant.db.DBManager;
@@ -208,15 +209,17 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 Intent foodIntent = new Intent(getContext(), FoodActivity.class);
                 startActivity(foodIntent);
                 break;
-            case R.id.frag_tv_volunteer: // 添加志愿者信息的点击事件
+            case R.id.frag_tv_volunteer:
                 Intent volunteerIntent = new Intent(getContext(), VolunteerActivity.class);
                 startActivity(volunteerIntent);
                 break;
-            case R.id.frag_tv_movie: // 医生建议的点击事件
+            case R.id.frag_tv_movie:
                 Intent medicalIntent = new Intent(getContext(), MedicalAdviceActivity.class);
                 startActivity(medicalIntent);
                 break;
             case R.id.frag_tv_beauty:
+                Intent nearbyHospitalsIntent = new Intent(getContext(), NearbyHospitalsActivity.class);
+                startActivity(nearbyHospitalsIntent);
                 break;
         }
     }

@@ -38,7 +38,7 @@
             android:id="@+id/frag_tv_volunteer"
             style="@style/indextext"
             android:text="志愿者信息"
-            android:drawableTop="@mipmap/icon_hotel"
+            android:drawableTop="@mipmap/icon_volunteer"
             />
         <TextView
             android:id="@+id/frag_tv_beauty"
